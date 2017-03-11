@@ -8,11 +8,9 @@ content.appendChild(row)
 
 const leftText = document.createElement("div")
 leftText.className = "one-half column"
-leftText.innerHTML = "A gauche"
 
 const rightText = document.createElement("div")
 rightText.className = "one-half column"
-rightText.innerHTML = "A droite"
 
 row.appendChild(leftText)
 row.appendChild(rightText)
